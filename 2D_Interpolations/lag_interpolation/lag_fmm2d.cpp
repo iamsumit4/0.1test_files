@@ -66,8 +66,8 @@ int main(){
     get_2d_linspace_nodes(a, b, a, b, source_matrix);
     get_2d_linspace_nodes(c, d, c, d, target_matrix);
 
-    get_2d_linspace_nodes(a, b, a, b, source_cheb_matrix);
-    get_2d_linspace_nodes(c, d, c, d, target_cheb_matrix);
+    get_2d_cheb_nodes(a, b, a, b, source_cheb_matrix);
+    get_2d_cheb_nodes(c, d, c, d, target_cheb_matrix);
 
     std::cout << source_matrix(0,2) << std::endl;
     std::cout << target_matrix(0,2) << std::endl;
